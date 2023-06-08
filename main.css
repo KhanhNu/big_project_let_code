@@ -1,0 +1,16 @@
+:root {
+    --text-color-global: black;
+}
+
+h1 {
+    color: red;
+}
+
+#id {
+    --text-color-local: blue;
+    color: var(--text-color-local);
+}
+
+.class {
+    color: yellow !important;
+}
